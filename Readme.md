@@ -35,5 +35,5 @@ The parameters that have been tweaked are:
  	(you can get the fake samples from the numbered folders specific to each stage. There would be 5 in each folder.)
 2. Run this command `python3 ConSinGAN/sifid_score.py --path2real <real images path> --path2fake <fake images path>
 
-## The video presentation is on the link below
+## Link for the video presentation
 [Video Presentation](https://youtu.be/sCyih8AzsSQ)
