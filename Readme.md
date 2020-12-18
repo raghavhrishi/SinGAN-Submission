@@ -33,7 +33,7 @@ The parameters that have been tweaked are:
 
 1. Create 2 directories- one for the 'Real Images' and one for the 'Fake Images'. The corresponding images in both the folders should have the same name
  	(you can get the fake samples from the numbered folders specific to each stage. There would be 5 in each folder.)
-2. Run this command `python3 ConSinGAN/sifid_score.py --path2real <real images path> --path2fake <fake images path> `
-3. For FID,
-	`pip install pytorch-fid`
-	`python -m pytorch_fid 'path to Real images folder' 'path to Fake images folder'`
+2. Run this command `python3 ConSinGAN/sifid_score.py --path2real <real images path> --path2fake <fake images path>
+
+## The video presentation is on the link below
+[Video Presentation](https://youtu.be/sCyih8AzsSQ)
