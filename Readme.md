@@ -20,7 +20,7 @@
 By default the `training_generation.py` file uses the **WGAN-GP** loss function. If we wish to replace it with the **Zero-GP** loss function, the simplest way would be to copy the all the contents from `training_generation_zerogp.py` to `training_generation.py`.
 The code should be launched the same way as before: `python main_train.py --gpu 0 --train_mode generation --input_name Images/Generation/mtrushmore.jpg`
 
-# Checking the effect of learning rate scale  and training train_depth
+## Checking the effect of learning rate scale  and training train_depth
 The code base contains ArgumentParser which is used to mention the desired arguments. In `config.py`, `--train_depth` is given as 3. This number can be tweaked based on experiment being run. Likewise, in `main_train.py`, `--lr_scale` can be changed.
 The parameters that have been tweaked are:
 ````sh
