@@ -1,4 +1,4 @@
-# Readme
+# SinGAN
 
 ## Training the model
 1. Run the following command in the root directory of the Project Folder
